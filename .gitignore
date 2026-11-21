@@ -1,0 +1,9 @@
+# Build output (published as a release instead)
+UmcVolume.exe
+dist/
+
+# Author-local signing setup; without it build.cmd builds unsigned
+cert/thumbprint.txt
+*.pfx
+
+*.log
